@@ -1,0 +1,600 @@
+/* unbounded-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/unbounded-v7-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/unbounded-v7-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/unbounded-v7-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* unbounded-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/unbounded-v7-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.header__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__list{
+    margin-left: 150px;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+.header__item{
+    margin: 20px;
+}
+.header__link{
+    font-family: "SF Pro Display"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+}
+.header__link:hover{
+    font-family: "SF Pro Display"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:red;
+}
+.header__button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background: transparent;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.header__button:hover{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:1px solid wheat;
+    background:blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+.hero__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hero__list{
+    list-style: none;
+}
+.hero__item{
+    position: relative;
+    width: 600px;
+}
+.hero__title{
+    width: 800px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: #3375FF;  
+}
+.hero__text{
+    width: 320px;
+    margin-top: 20px;
+    font-family: "SF Pro Display"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #676D83;
+}
+.hero__button{
+    position: absolute;
+    top: 400px;
+    padding:10px 20px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    color: rgb(11, 11, 11);
+}
+.hero__button:hover{
+    background: blue;
+    position: absolute;
+    top: 400px;
+    padding:10px 20px;
+    border-radius: 15px;
+    border: 1px solid blue;
+    color:whitesmoke;
+}
+.hero{
+    position: relative; 
+}
+.hero__img-one{
+    position: absolute;
+    left: 320px;
+    bottom: 80px;
+}
+.hero__img-two{
+    position: absolute;
+    left: 350px;
+    bottom: 30px;
+}
+.hero__img-three{
+    position: absolute;
+    left:380px;
+    top: 130px;
+}
+.hero__img-foo{
+   position: absolute;
+   top: 398px;
+   left: 120px;
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.About__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.About__title{
+    margin-top: 50px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+/* ------------------------------------------------------------------------------------------------------------ */
+.wrapper__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper__list{
+    list-style: none;
+    display: flex;
+}
+.wrapper__item-two{
+    margin-left: 100px;
+}
+.wrapper__item-three{
+    margin-left: 100px;
+}
+.wrapper__title{
+    margin-top: 10px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.wrapper__text{
+    margin-top: 20px;
+    width: 320px;
+    font-family: "SF Pro Display"  ,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+.wrap__container{
+    border-radius: 20px;
+    background-image: url(../images/rasm10.svg);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrap__list{
+    margin-left: 600px;
+    list-style: none;
+}
+.wrap__title{
+    margin-top: 30px;
+    width: 500px;
+    color:black;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.wrap__text{
+    margin-top:20px;
+    width: 350px;
+    font-family: "SF Pro Display"  ,sans-serif;
+    color:black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.wrap__button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(27, 51, 169);
+    color: rgb(15, 15, 15);
+    background: transparent;
+    margin-bottom: 200px;
+}
+.wrap__button:hover{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 47, 255);
+    color: beige;
+    background:blue;
+}
+/* ---------------------------------------------------------------------------------------------------------------- */
+.main__container{
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 20px;
+}
+.main__title{
+    margin-top: 40px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.main__text{
+    margin-top: 20px;
+    width: 300px;
+    font-family: "SF Pro Display" ,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+/* --------------------------------------------------HERO----------------------------------------------------- */
+.body__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.body__list{
+    list-style: none;
+    display: flex;
+}
+.body__item-one{
+    border-radius: 20px;
+    border: 1px solid rgb(194, 194, 240);
+    height: 350px;
+    width: 300px;
+    background: #c0d8f0;
+}
+.body__item-two{
+    border-radius: 20px;
+    border: 1px solid rgb(194, 194, 240);
+    height: 350px;
+    width: 300px;
+    background: #c0d8f0;
+    margin-left: 180px;
+}
+.body__item-three{
+    border-radius: 20px;
+    border: 1px solid rgb(194, 194, 240);
+    height: 350px;
+    width: 350px;
+    background: #c0d8f0;
+    margin-left: 180px;
+}
+.body__title{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.body__text{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #056AC7;
+}
+.body__img{
+    margin-top: 100px;
+    margin-left: 170px;
+}
+/* -------------------------------------------HERO------------------------------------------ */
+.head{
+ margin-top: 100px;
+}
+.head__container{
+    background-image: url(../images/Rectangle\ 5\ \(1\).png);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+.head__text{
+    margin-left: 80px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: rgb(16, 16, 16);  
+}
+.head__button{
+    margin-top: 100px;
+    margin-left: 80px;
+    padding: 10px 40px;
+    background: transparent;
+    color: black;
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+.head__button:hover{
+    margin-top: 100px;
+    margin-left: 80px;
+    padding: 10px 40px;
+    background:blue;
+    color: rgb(252, 246, 246);
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+.head__img{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+/* ---------------------------------------------------HERO------------------------------------------ */
+.navbar{
+    margin-top: 150px;
+}
+.navbar__container{
+    border: 1px solid rgb(161, 159, 156);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar__title{
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #020C31;    
+}
+.navbar__text{
+    margin-top: 10px;
+    margin-bottom: -50px;
+    align-items: center;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.name__container{
+    border: 1px solid rgb(181, 179, 175);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.name__text{
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom: -50px;
+    align-items: center;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.katak__container{
+    border: 1px solid rgb(181, 179, 175);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.katak__list{
+    margin-left: 450px;
+}
+.katak__title{
+    font-family: "Unbounded"  ,sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.katak__text{
+    margin-top: 10px;
+    width: 650px;
+    font-family: "SF Pro Display"  ,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.katak__img{
+    margin-top: 55px;
+}
+/* -------------------------------------------HERO-------------------------------------- */
+.menu__container{
+    display: flex;
+    background-image: url(../images/Rectangle\ 5\ \(1\).png);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.menu__list{
+    border: 2px solid rgb(235, 232, 232);
+    background: whitesmoke;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.menu__title{
+    margin-left: 10px;
+    width: 300px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.menu__input{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    background: #ebf1f7;
+    border: 1px solid rgb(186, 184, 179);
+}
+.menu__input:hover{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    background: #ebecf7;
+    border: 1px solid rgb(16, 91, 211);
+}
+.menu__button-one{
+    border: 3px solid blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.menu__button-one:hover{
+    border: 3px solid blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 8px;
+    border-radius: 50%;
+    background: #056AC7;
+}
+.menu__text{
+    margin-left: 80px;
+    margin-top: -17px;
+}
+.menu__button-two{
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px 125px;
+    margin-left: 10px;
+    font-family: "Unbounded" ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #121213;
+}
+.menu__button-two:hover{
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 15px 125px;
+    margin-left: 10px;
+    font-family: "Unbounded" ,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #f2f2f7;
+    background: #121213;
+}
+.menu__title-one{
+    margin-top: 100px;
+    margin-left: 150px;
+    color: whitesmoke;
+    width: 400px;
+    font-family: "Unbounded"  ,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;   
+}
+.menu__img{
+    margin-left: 350px;
+    margin-top: -130px;
+}
+/* ----------------------------------------------------------HERO------------------ */
+.dars__container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.dars__list{
+    margin-left: 400px;
+}
+.dars__img{
+    margin-top: 50px;
+    margin-left: 450px;
+}
