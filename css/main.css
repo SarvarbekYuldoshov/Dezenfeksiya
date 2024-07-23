@@ -135,11 +135,8 @@
 }
 .hero__button:hover{
     background: blue;
-    position: absolute;
-    top: 400px;
-    padding:10px 20px;
-    border-radius: 15px;
-    border: 1px solid blue;
+    transform: scale(1.1);
+    transition: 1s;
     color:whitesmoke;
 }
 .hero{
