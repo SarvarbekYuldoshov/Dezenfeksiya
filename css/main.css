@@ -89,6 +89,8 @@
     border:1px solid wheat;
     background:blue;
     color: white;
+    transform: scale(1.1);
+    transition: 1s;
 }
 /* ----------------------------------------------------------------------------------------------------------- */
 .hero__container{
@@ -138,6 +140,8 @@
     transform: scale(1.1);
     transition: 1s;
     color:whitesmoke;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .hero{
     position: relative; 
@@ -532,6 +536,8 @@
     padding: 8px;
     border-radius: 50%;
     background: #056AC7;
+    transform: scale(1.1);
+    transition: 1s;
 }
 .menu__text{
     margin-left: 80px;
