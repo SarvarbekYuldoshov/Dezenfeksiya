@@ -384,6 +384,8 @@
     border-radius: 50px;
 }
 .head__button:hover{
+    transform: scale(1.1);
+    transition: 1s;
     margin-top: 100px;
     margin-left: 80px;
     padding: 10px 40px;
