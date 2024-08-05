@@ -518,7 +518,7 @@
     border: 1px solid rgb(186, 184, 179);
 }
 .menu__input:hover{
-    transform: scale(1.1);
+    transform: scale(0.95);
     transition: 1s;
     margin-top: 30px;
     margin-left: 10px;
@@ -544,7 +544,7 @@
     padding: 8px;
     border-radius: 50%;
     background: #056AC7;
-    transform: scale(1.1);
+    transform: scale(0.95);
     transition: 1s;
 }
 .menu__text{
