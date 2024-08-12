@@ -443,7 +443,10 @@
     font-weight: 500;
     line-height: 32px;
     letter-spacing: 0em;
-    text-align: left;    
+    text-align: left; 
+    
+    /* -----------------------------------------------------------------name---------------------------------------------------------- */
+
 }
 .name__container{
     border: 1px solid rgb(181, 179, 175);
