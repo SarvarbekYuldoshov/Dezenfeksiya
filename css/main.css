@@ -98,7 +98,7 @@
     margin-bottom: 10px;
 }
 .header__button:hover{
-    transform: scale(1.2);
+    transform: scale(0.99);
     transition: 1s;
     border:1px solid wheat;
     background:blue;
