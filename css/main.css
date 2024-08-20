@@ -282,7 +282,7 @@
     border: 1px solid rgb(0, 47, 255);
     color: beige;
     background:blue;
-    transform: scale(1.1);
+    transform: scale(0.98);
     transition: 1s;
 }
 /* ---------------------------------------------------main------------------------------------------------------------- */
