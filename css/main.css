@@ -320,7 +320,7 @@
     list-style: none;
     display: flex;
 }
-.body__item-one{
+.body__item{
     border-radius: 20px;
     border: 1px solid rgb(194, 194, 240);
     height: 350px;
@@ -328,22 +328,7 @@
     color: #FFFF;
     background: #c0d8f0;
 }
-.body__item-two{
-    border-radius: 20px;
-    border: 1px solid rgb(194, 194, 240);
-    height: 350px;
-    width: 300px;
-    background: #c0d8f0;
-    margin-left: 180px;
-}
-.body__item-three{
-    border-radius: 20px;
-    border: 1px solid rgb(194, 194, 240);
-    height: 350px;
-    width: 350px;
-    background: #c0d8f0;
-    margin-left: 180px;
-}
+
 .body__title{
     margin-left: 10px;
     margin-top: 30px;
