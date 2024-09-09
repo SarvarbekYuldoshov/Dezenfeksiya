@@ -329,6 +329,10 @@
     color: #FFFF;
     background: #240ee7;
 }
+.body__item:hover{
+    transform: scale(0.98);
+    
+}
 
 .body__title{
     margin-left: 10px;
