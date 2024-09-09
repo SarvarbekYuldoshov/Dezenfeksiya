@@ -331,7 +331,7 @@
 }
 .body__item:hover{
     transform: scale(0.98);
-    
+    transition: 1s;
 }
 
 .body__title{
