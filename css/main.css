@@ -213,14 +213,14 @@
 .wrapper__title{
     margin-top: 10px;
     font-family: "Unbounded"  ,sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 32px;
     letter-spacing: 0em;
     text-align: left;    
 }
 .wrapper__text{
-    margin-top: 20px;
+    margin-top: 21px;
     width: 320px;
     font-family: "SF Pro Display"  ,sans-serif;
     font-size: 16px;
