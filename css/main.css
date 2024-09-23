@@ -232,7 +232,7 @@
 
 /* ---------------------------------------------------------wrap---------------------------------------------------- */
 .wrap__container{
-    border-radius: 20px;
+    border-radius: 21px;
     background-image: url(../images/rasm10.svg);
     max-width: 1200px;
     margin: 0 auto;
