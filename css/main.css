@@ -87,7 +87,7 @@
 }
 .header__link:hover{
     transform: scale(1.1);
-    color: blue;
+    color: rgb(16, 16, 253);
 }
 .header__button{
     padding: 10px 40px;
