@@ -100,7 +100,7 @@
 .header__button:hover{
     transform: scale(0.99);
     transition: 1s;
-    border:1px solid wheat;
+    border:1px solid rgb(244, 240, 231);
     background:blue;
     color: white;
     transform: scale(1.1);
