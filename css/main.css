@@ -101,7 +101,7 @@
     transform: scale(0.99);
     transition: 1s;
     border:1px solid rgb(244, 240, 231);
-    background:blue;
+    background:rgb(7, 7, 247);
     color: white;
     transform: scale(1.1);
     transition: 1s;
