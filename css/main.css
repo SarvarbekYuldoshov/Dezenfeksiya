@@ -152,7 +152,7 @@
     background: rgb(9, 9, 245);
     transform: scale(1.1);
     transition: 1s;
-    color:whitesmoke;
+    color:rgb(252, 243, 243);
     transform: scale(0.98);
     transition: 1s;
 }
