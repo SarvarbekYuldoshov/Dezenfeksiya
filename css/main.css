@@ -391,7 +391,7 @@
     margin-left: 80px;
     padding: 10px 40px;
     background: transparent;
-    color: black;
+    color: rgb(6, 5, 5);
     border: 1px solid blue;
     border-radius: 50px;
 }
