@@ -403,7 +403,7 @@
     padding: 10px 40px;
     background:rgb(7, 7, 244);
     color: rgb(252, 246, 246);
-    border: 1px solid blue;
+    border: 1px solid rgb(3, 3, 246);
     border-radius: 50px;
 }
 .head__img{
