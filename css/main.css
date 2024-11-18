@@ -532,7 +532,7 @@
     height: 40px;
     border-radius: 5px;
     background: #ebedef;
-    border: 1px solid rgb(186, 184, 179);
+    border: 1px solid rgb(180, 176, 167);
 }
 .menu__input:hover{
     transform: scale(0.98);
