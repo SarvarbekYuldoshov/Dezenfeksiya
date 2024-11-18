@@ -510,7 +510,7 @@
 }
 .menu__list{
     border: 2px solid rgb(235, 232, 232);
-    background: whitesmoke;
+    background: rgb(251, 247, 247);
     width: 500px;
     height: 400px;
     border-radius: 10px;
