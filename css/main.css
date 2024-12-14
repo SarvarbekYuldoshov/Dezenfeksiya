@@ -146,7 +146,7 @@
     padding:10px 20px;
     border-radius: 15px;
     border: 1px solid rgb(4, 4, 245);
-    color:black;
+    color:rgb(10, 9, 9);
 }
 .hero__button:hover{
     background: rgb(9, 9, 245);
