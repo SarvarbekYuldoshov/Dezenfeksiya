@@ -149,7 +149,7 @@
     color:rgb(10, 9, 9);
 }
 .hero__button:hover{
-    background: rgb(9, 9, 245);
+    background: rgb(1, 1, 243);
     transform: scale(1.1);
     transition: 1s;
     color:rgb(247, 244, 244);
