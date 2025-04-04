@@ -152,7 +152,7 @@
     background: rgb(1, 1, 243);
     transform: scale(1.1);
     transition: 1s;
-    color:rgb(252, 241, 241);
+    color:rgb(255, 255, 255);
     transform: scale(0.98);
     transition: 1s;
 }
