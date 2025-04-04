@@ -95,7 +95,7 @@
     border: 1px solid rgb(1, 1, 234);
     background: transparent;
     margin-top: 11px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 .header__button:hover{
     transform: scale(0.99);
